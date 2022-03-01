@@ -29,8 +29,7 @@
 		<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
 		<!-- VueJS -->
-		<script src="https://cdn.jsdelivr.net/npm/vue"></script>
-
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.8/vue.js"></script>
 	</head>
 	<body>
 		<div class="container" id="cabeca">
@@ -63,7 +62,7 @@
 			    </tr>
 			  </thead>
 			  <tbody>
-			    <tr v-for="(item, index) in array_historias" v-if="index < 15" :key="index">
+			    <tr v-for="(item, index) in array_historias">
 
 			    <th scope="row">{{ index + 1 }}</th>
 	      		<td>{{ item.title }}</td>
