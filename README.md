@@ -1,4 +1,4 @@
-##### O site neste repositório compreende as 15 melhores notícias do site HackerNews.
+##### O site neste repositório compreende as melhores notícias do site HackerNews.
 
 Link para API - https://github.com/HackerNews/API
 
