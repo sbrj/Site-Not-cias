@@ -12,7 +12,7 @@ var app = new Vue({
 		    this.meu_array = []
 
 		   	for(var i in this.items){
-		   		if(i<15){
+		   		if(i<20){
 		   			this.meu_array.push(this.items[i])
 		   		}
 		   	}
